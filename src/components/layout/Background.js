@@ -5,7 +5,7 @@ function Background() {
     return (
         <div>
             <Helmet>
-                <style>{'body { background-color: #2F3E6C; }'}</style>
+                <style>{'body { background-image: linear-gradient(135deg, #247DBB, #0A2436); }'}</style>
             </Helmet>
         </div>
     )
