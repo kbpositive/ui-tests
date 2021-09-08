@@ -14,6 +14,10 @@ module.exports = {
         inner: 'inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)',
         none: 'none',
       },
+      colors: {
+        'custom-blue': '#247DBB',
+        'custom-blue-tue': '#0A2436'
+      }
     },
   },
   variants: {

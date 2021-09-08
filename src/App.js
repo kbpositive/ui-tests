@@ -9,22 +9,24 @@ import './App.css';
 function App() {
   return (
     <>
-      <Router>
-        <Background />
-        <div>
-          <Header />
-          <br></br>
-          <Softdiv text="button 1" />
-          <br></br>
-          <Softdiv text="button 2" />
-          <br></br>
-          <Softdiv text="button 3" />
-          <br></br>
-          <Softdiv text="button 4" />
-          <br></br>
-          <Softdiv text="button 5" />
-        </div>
-      </Router>
+      <div class="w-screen h-screen overflow-hidden min-h-screen bg-gradient-to-tl from-custom-blue-tue to-custom-blue">
+        <Router>
+          <div>
+            <br></br>
+            <Header />
+            <br></br>
+            <Softdiv text="button 1" />
+            <br></br>
+            <Softdiv text="button 2" />
+            <br></br>
+            <Softdiv text="button 3" />
+            <br></br>
+            <Softdiv text="button 4" />
+            <br></br>
+            <Softdiv text="button 5" />
+          </div>
+        </Router>
+      </div>
     </>
   );
 }
