@@ -20,7 +20,6 @@ const headerStyle = {
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
-    cursor: "pointer",
     transition: ".3s ease",
     boxShadow: ".3rem .3rem .6rem #212C4C, -.2rem -.2rem .5rem #4E67B1",
 }
