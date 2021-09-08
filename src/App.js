@@ -10,8 +10,8 @@ function App() {
   return (
     <>
       <Router>
+        <Background />
         <div>
-          <Background />
           <Header />
           <br></br>
           <br></br>
