@@ -1,21 +1,22 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
-function Header() {
+function Softdiv(props) {
     return (
-        <header style={headerStyle}>
-            <h1>Components</h1>
-        </header>
+        <div style={divStyle}>
+            <h1>{props.text}</h1>
+        </div>
     )
 }
 
-const headerStyle = {
-    width: "auto",
-    height: "10%",
+const divStyle = {
+    width: "9rem",
+    height: "3rem",
+    margin: "0% 2%",
     color: "#4E67B1",
     fontFamily: "Arial",
-    marginTop: "20px",
-    borderRadius: "1rem",
+    fontSize: "8px",
+    position: "absolute",
+    borderRadius: "10rem",
     justifySelf: "center",
     display: "flex",
     alignItems: "center",
@@ -23,6 +24,7 @@ const headerStyle = {
     cursor: "pointer",
     transition: ".3s ease",
     boxShadow: ".3rem .3rem .6rem #212C4C, -.2rem -.2rem .5rem #4E67B1",
-}
+};
 
-export default Header;
+
+export default Softdiv;
