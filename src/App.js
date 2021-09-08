@@ -36,6 +36,8 @@ function App() {
           <Header />
           <br></br>
           <div style={testButton}>button</div>
+          <br></br>
+          <div style={testButton}>button</div>
         </div>
       </Router>
     </>
