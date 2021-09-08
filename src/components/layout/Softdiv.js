@@ -2,29 +2,10 @@ import React from 'react';
 
 function Softdiv(props) {
     return (
-        <div style={divStyle}>
-            <h1>{props.text}</h1>
+        <div class="cursor-pointer mix-blend-overlay bg-gray-500 bg-opacity-50 flex shadow-outter font-sans w-40 h-1/4 rounded-3xl mx-3 p-3 justify-center">
+            <h1 class="mix-blend-overlay text-gray-300">{props.text}</h1>
         </div>
     )
 }
-
-const divStyle = {
-    width: "9rem",
-    height: "3rem",
-    margin: "0% 2%",
-    color: "#4E67B1",
-    fontFamily: "Arial",
-    fontSize: "8px",
-    position: "absolute",
-    borderRadius: "10rem",
-    justifySelf: "center",
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-    cursor: "pointer",
-    transition: ".3s ease",
-    boxShadow: ".3rem .3rem .6rem #212C4C, -.2rem -.2rem .5rem #4E67B1",
-};
-
 
 export default Softdiv;

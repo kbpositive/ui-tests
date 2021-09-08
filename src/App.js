@@ -14,26 +14,13 @@ function App() {
         <div>
           <Header />
           <br></br>
-          <br></br>
           <Softdiv text="button 1" />
-          <br></br>
-          <br></br>
-          <br></br>
           <br></br>
           <Softdiv text="button 2" />
           <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
           <Softdiv text="button 3" />
           <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
           <Softdiv text="button 4" />
-          <br></br>
-          <br></br>
-          <br></br>
           <br></br>
           <Softdiv text="button 5" />
         </div>
