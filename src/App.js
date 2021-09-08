@@ -7,16 +7,10 @@ import './App.css';
 
 
 function App() {
-  const testBg = {
-    width: "50rem",
-    height: "50rem",
-    position: "relative",
-  }
-
   return (
     <>
       <Router>
-        <div style={testBg}>
+        <div>
           <Background />
           <Header />
           <br></br>
