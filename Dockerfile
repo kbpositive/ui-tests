@@ -1,4 +1,7 @@
 FROM debian:latest
+
+ENV PORT=8080, K_SERVICE=ui-tests, K_REVISION=ui-tests.1, K_CONFIGURATION=ui-tests
+
 RUN mkdir /usr/local/nvm
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh
 
@@ -22,7 +25,9 @@ ENV PATH $NVM_DIR/versions/node/v$NODE_VERSION/bin:$PATH
 WORKDIR /usr/app
 RUN git clone https://github.com/kbpositive/ui-tests.git \
     && cd ui-tests \
-    && npm install npm -g \
     && npm i \
     && npm run build
+
+WORKDIR /usr/app/ui-tests
+CMD ["npm", "start"]
 
